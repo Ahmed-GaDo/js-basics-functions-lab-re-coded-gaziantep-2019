@@ -3,10 +3,7 @@
 function distanceFromHqInBlocks(HQdist){
     return Math.abs(HQdist-42);
 }
-//function distanceFromHqInFeet(HQdistFeet){
-//function distanceFromHqInFeet(HQdisFeet){
-//function distanceFromHqInFeet(HQdisfeet){
- function distanceFromHqInFeet(HQdist){
+function distanceFromHqInFeet(HQdist){
      distanceFromHqInBlocks(HQdist);
      return distanceFromHqInBlocks(HQdist)*264 ;
 
