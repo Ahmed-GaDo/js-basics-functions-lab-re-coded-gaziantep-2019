@@ -9,7 +9,6 @@ function distanceFromHqInFeet(HQdist){
 
  }           
 
- //function distaceTravilledInFeet(dis1, dis2){
  function distanceTravelledInFeet(dis1, dis2){
    if (dis1 > dis2) {
        return (dis1-dis2)*264;
